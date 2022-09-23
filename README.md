@@ -2,6 +2,16 @@
 
 <br>
 
+__Fonctionnalités :__
+
+<li>Création de compte</li>
+<li>Connexion au compte</li>
+<li>Modification d'identifiant et de mot de passe</li>
+<li>Administration des permissions des membres</li>
+<li>Suppresions de comptes</li>
+
+<br>
+
 __Utilisation :__
 
 Importer le fichier __auth.sql__ sur votre base de donnée à l'aide de votre outil favori
