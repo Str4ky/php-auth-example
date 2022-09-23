@@ -17,7 +17,7 @@
 
     <body>
         <form method="post" action="edit/edit_account.php">
-            <center><br><p>Modifier son compte</p>
+            <center><br><p>Modifier mon compte</p>
             <?php
             #On récupère l'identifiant
             $requete = "SELECT user FROM users WHERE user = '{$_SESSION['user']}'";
