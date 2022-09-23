@@ -1,0 +1,47 @@
+html {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+
+input[type='text'], [type='password']{
+border-radius: 6px;
+display: inline-block;
+font-size: 28px;
+width: 25%;
+background-color: #EFEFEF;
+border: 3px solid #222222;
+color: black;
+}
+
+select {
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 28px;
+    width: 25%;
+    background-color: #EFEFEF;
+    border: 3px solid #222222;
+    color: black;
+    }
+
+.textarea {
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 28px;
+    width: 30%;
+    height: 150px;
+    background-color: #EFEFEF;
+    border: 3px solid #222222;
+    color: black;
+}
+
+.input {
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 28px;
+    width: 15%;
+    background-color: #EFEFEF;
+    border: 3px solid #222222;
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
