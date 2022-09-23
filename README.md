@@ -1,5 +1,7 @@
 <h2>PHP Authentification Example</h2>
 
+Exemple d'authentification en PHP
+
 <br>
 
 __Fonctionnalités :__
