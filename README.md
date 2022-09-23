@@ -32,7 +32,8 @@ __Administration :__
 Pour une première utilisation, il faut vous mettre en administrateur via la base de données, en modifiant votre compte
 
 Vous pouvez le faire en modifiant la valeur de la colone "type" de la table "users", la changeant de 1 à 2
-Vous pouvez aussi le faire en réalisant cette requette SQL "UPDATE users SET type = 2 WHERE user = 'Votre identifiant';"
+
+Vous pouvez aussi le faire en réalisant cette requette SQL ```UPDATE users SET type = 2 WHERE user = 'Votre identifiant';```
 
 <br>
 
