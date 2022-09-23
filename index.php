@@ -30,7 +30,9 @@
 
         <form method="post" action="script/login.php">
             <center><p>Se connecter</p>
+            <label>Identifiant</label><br>
             <input type="text" name="username" id="username" placeholder="Entrez votre identifiant" required><br><br>
+            <label>Mot de passe</label><br>
             <input type="password" name="password" id="password" placeholder="Entrez votre mot de passe" required><br><br>
             <input type="submit" class="input" value="Se connecter"/><br><br>
             <a href="register.php">Pas encore de compte ?</a></center>

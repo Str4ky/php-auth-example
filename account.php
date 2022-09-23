@@ -2,18 +2,6 @@
     #On inclus les fichiers de configuration nécessaire
     include('config/database.php');
     include('config/isntlogin.php');
-
-        #On vérifie si le message d'erreur de connexion existe et on le défini à une variable temporaire
-        if(isset($_SESSION['message_login'])) {
-            $message = $_SESSION['message_login'];
-            $_SESSION['message_login'] = "";
-        }
-        #Sinon on initialise les 2 variables
-        else {
-            $_SESSION['message_login'] = "";
-            $message = "";
-        }
-
 ?>
 
 <html>
@@ -37,10 +25,10 @@
                     $resultat = $cnn->query($requete) or die(print_r($database->errorInfo()));
                     while($row = $resultat->fetch()){
                         #On affiche un message de bienvenue
-                        echo "<br>Bon retour parmi nous ".$row['user']."<br><br><br>";
+                        echo "<br><p>Bon retour parmi nous ".$row['user']."</p><br>";
 
-                        #On affiche un bouton d'édition de compte
-                        echo "<a href='edit.php' class='input'>Modifier mon compte</a><br><br>";
+                        #On affiche un bouton de paramètres de compte
+                        echo "<a href='settings.php' class='input'>Paramètres</a><br><br>";
 
                         #On vérifie si l'utilisateur est administrateur
                         if($row['type'] == 2) {

@@ -31,7 +31,9 @@
 
         <form method="post" action="script/register.php">
             <center><p>S'inscrire</p>
+            <label>Identifiant</label><br>
             <input type="text" name="username" id="username" placeholder="Entrez un identifiant" required><br><br>
+            <label>Mot de passe</label><br>
             <input type="password" name="password" id="password" placeholder="Entrez un mot de passe" required><br><br>
             <input type="submit" class="input" value="S'inscrire"/><br><br>
             <a href="index.php">Déjà un de compte ?</a></center>

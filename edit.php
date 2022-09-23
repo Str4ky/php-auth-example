@@ -16,7 +16,7 @@
     </head>
 
     <body>
-        <form method="post" action="edit/edit_account.php">
+        <form method="post" action="settings/edit_account.php">
             <center><br><p>Modifier mon compte</p>
             <?php
             #On récupère l'identifiant
@@ -25,12 +25,14 @@
             while($row = $resultat->fetch()){
             #On affiche un formulaire avec l'identifiant pré-rempli
                 echo "
+            <label>Identifiant</label><br>
             <input type='text' name='username' id='username' value='".$row['user']."' placeholder='Entrez un nouvel identifiant' required><br><br>
+            <label>Mot de passe</label><br>
             <input type='password' name='password' id='password' placeholder='Entrez votre/un autre mot de passe' required><br><br>
             <input type='submit' class='input' value='Modifier'/><br><br>";
             }
             ?>
-            <a href="account.php" class='input'>Retour</a></center>
+            <a href="settings.php" class='input'>Retour</a></center>
         </form>
 
     </body>
