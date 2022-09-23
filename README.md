@@ -8,7 +8,7 @@ __Fonctionnalités :__
 <li>Connexion au compte</li>
 <li>Modification d'identifiant et de mot de passe</li>
 <li>Administration des permissions des membres</li>
-<li>Suppresions de comptes</li>
+<li>Suppression de comptes</li>
 
 <br>
 
