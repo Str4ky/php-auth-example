@@ -2,8 +2,6 @@
 
 Exemple d'authentification en PHP
 
-<br>
-
 __Fonctionnalités :__
 
 <li>Création de compte</li>
